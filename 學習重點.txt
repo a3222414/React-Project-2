@@ -1,0 +1,11 @@
+使用useState,和event的互動，來動態設置css style
+例如當input沒有輸入任何東西或只有空白，框框則會變成紅色。
+當有輸入東西時，框框變回來。
+
+嘗試使用styled-compoments npm 和 css module的功能來避免重複class名稱
+
+1) styled-compoments npm
+直接在styled-compoments 給的方法內用cb來設置CSS style
+
+2) css module
+css classes變成物件來使用
